@@ -31,7 +31,11 @@ trusted_clients =
 [history]
 
 [update_manager]
-enable_auto_refresh = True
+
+[update_manager client mainsail]
+type = web
+repo = mainsail-crew/mainsail
+path = ~/mainsail
 
 [update_manager timelapse]
 type = git_repo
